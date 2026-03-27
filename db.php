@@ -2,7 +2,7 @@
 $host = "shortline.proxy.rlwy.net";
 $port = 39879;
 $user = "root";
-$password = "YOUR_RAILWAY_PASSWORD";
+$password = "VlejsxjILyBwbVaauIgPHMTfGofgtTqg";
 $database = "railway";
 
 $conn = new mysqli($host, $user, $password, $database, $port);
