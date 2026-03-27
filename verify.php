@@ -1,6 +1,7 @@
 <?php
 session_start();
 require 'config.php';
+include 'db.php';
 
 if (!isset($_SESSION['email']) || !isset($_SESSION['ticket']) || !isset($_SESSION['event_id'])) {
     header("Location: index.php");

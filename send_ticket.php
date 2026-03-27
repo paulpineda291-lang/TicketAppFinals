@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'config.php';
+include 'db.php';
 
 if (!isset($_SESSION['payment_verified'])) {
     header("Location: index.php");

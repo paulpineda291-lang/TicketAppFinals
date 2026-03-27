@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+include 'db.php';
 if (!isset($_SESSION['email']) || !isset($_SESSION['ticket'])) {
     header("Location: index.php");
     exit();

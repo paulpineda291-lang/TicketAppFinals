@@ -1,6 +1,7 @@
 <?php
 include 'db.php';
 
+
 $sql = "SELECT * FROM users";
 $result = $conn->query($sql);
 

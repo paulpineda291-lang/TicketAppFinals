@@ -1,6 +1,7 @@
 <?php
 session_start();
-require 'config.php';
+include 'db.php';
+
 
 /* ---------------------------------------------------------------
    GUEST LOGIN - Gmail only
